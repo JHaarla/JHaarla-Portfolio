@@ -1,5 +1,6 @@
 body {
     font-family: 'Lato', "Century Gothic", sans-serif;
+    background: #eee;
   }
   a {
     text-decoration: none;
@@ -10,11 +11,34 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    /* height: 100vh; */
+    position: relative;
+    background: #eee;
+    text-align: center;
+    padding: 0 2rem;
+  }
+  #myheight {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     height: 100vh;
     position: relative;
     background: #eee;
     text-align: center;
-    padding: 0 2em;
+    padding: 0 2rem;
+  }
+  .mySpacing {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    position: relative;
+    background: #eee;
+    text-align: center;
+    padding: 0 2rem;
+
   }
   .nav-items h1,
   .bottom-slide h1 {
@@ -72,8 +96,39 @@ body {
   }
 
   .profile-pic {
+      display: block;
+      margin: auto;
       width: 30%;
       height: auto;
+      max-width: 200px;
+  }
+
+  .container {
+      max-width: 800px;
+      margin: auto;
+      overflow: auto;
+      padding: 0 2rem;
+      box-sizing: border-box;
+  }
+
+  .folioPics {
+      width: 100%
+  }
+
+  .card {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 2rem;
+      background: #f1f1f1;
+      margin-bottom: 2rem;
+  }
+
+  .card > div {
+      padding: 1rem;
+  }
+
+  .card:nth-child(even) .folioPics {
+      order: 2;
   }
    
   @media (min-width: 800px) {
@@ -90,8 +145,12 @@ body {
       font-size: 1rem;
     }
   }
-  @media (max-width: 765px) {
+  @media (max-width: 700px) {
     .nav-items h1, .bottom-slide h1 {
       letter-spacing: 0ch;
+    }
+
+    .card {
+        display: block;
     }
   }

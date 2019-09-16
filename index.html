@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,48 +8,138 @@
     <title>&lt;haarla.dev&gt; Portfolio</title>
 
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
 </head>
+
 <body>
-    
-    <section class="nav-items">
+
+    <section class="nav-items" id="myheight">
         <h1>&lt;haarla.dev&gt; <br><span>Portfolio</span></h1>
         <div class="items-container">
-            <a class="navs" href="#sec-profile">Profile</a>
+            <a class="navs" href="#sec-profile">About Me</a>
             <a class="navs" href="#sec-portfolio">Portfolio</a>
             <a class="navs" href="#sec-resume">Resume</a>
             <a class="navs" href="#sec-contact">Contact</a>
             <span class="bottom-slider"></span>
         </div>
     </section>
-     
-     
+
+
     <main class="content">
         <section class="bottom-slide" id="sec-profile">
-            <h1>About Me</h1>
-            <h3>About Jarkko Haarla (AKA &lt;haarla.dev&gt;)</h3>
+            <span class="mySpacing"><h1>About Me</h1>
+            <h3>About Jarkko Haarla (AKA &lt;haarla.dev&gt;)</h3></span>
+        
+
             <div class="container">
-                <img class="profile-pic" src="assets/images/JHaarlanobg-circle.png" alt="Black and white picture of Jarkko Haarla">
+                <img class="profile-pic" src="assets/images/JHaarlanobg-circle.png"
+                    alt="Black and white picture of Jarkko Haarla">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo adipisci asperiores quae doloremque, a
+                    tempora dignissimos qui molestiae, maiores sunt, quis quas aperiam autem veritatis. Commodi voluptas
+                    reiciendis iste odio!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et corrupti eveniet quaerat rerum. Dicta
+                    consequuntur quibusdam fugiat, cumque, repellendus minima beatae eaque illum voluptate praesentium
+                    odio. Maxime illo enim magnam veritatis in? Distinctio, error hic?</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam expedita tempora perspiciatis
+                    distinctio? Repudiandae perspiciatis obcaecati ex consequuntur illum atque qui consequatur, officiis
+                    voluptatibus cumque.</p>
             </div>
         </section>
-        <section class="bottom-slide" id="sec-portfolio">
-            <h1>Portfolio</h1>
-            <h3>Here are some of my recent projects</h3>
+
+        
+            <section class="bottom-slide" id="sec-portfolio">
+                <span class="mySpacing"><h1>Portfolio</h1>
+                <h3>Here are some of my recent projects</h3></span>
+           
+
+            <div class="container" id="sec-portfolio">
+                <div class="card">
+                    <img class="folioPics" src="assets/images/HPthumb.png" alt="House Party thumbnail">
+                    <div>
+                        <h2>House Party</h2>
+                        <p>If you're not sure what to mix up - drink or music-wise - for your next House Party, we're
+                            here to help. Punch in the name of your favorite cocktail or grab a random one if you're
+                            feeling adventurous and we'll show you how to mix it up. You'll be sure to find a new
+                            favorite or two!</p>
+                        <p>Once you have a beverage in hand, you'll need some tunes to get the party going. You can
+                            search for a playlist by artist or genre. Either way, we'll give you a few options to choose
+                            from to kick start your House Party!</p>
+                    </div>
+                </div>
+            <!-- </div> -->
+
+            <!-- <div class="container"> -->
+                <div class="card" data-aos="fade-left">
+                    <img class="folioPics" src="assets/images/GIFtastic.jpg" alt="GIFtastic thumbnail">
+                    <div>
+                        <h3>It's GIFtastic!</h3>
+                        <p>This fun GIF viewer has quite a bit going on under it's plain-jane hood. API calls with it's
+                            returned data manipulated into what shows on screen. Dynamically - with jQuery/JavaScript.
+                            Fun project that lead to a fun page to play with. Check it out!</p>
+                    </div>
+                </div>
+            <!-- </div> -->
+
+            <!-- <div class="container"> -->
+                <div class="card" data-aos="fade-right">
+                    <img class="folioPics" src="assets/images/HPthumb.png" alt="House Party thumbnail">
+                    <div>
+                        <h3>House Party</h3>
+                        <p>If you're not sure what to mix up - drink or music-wise - for your next House Party, we're
+                            here to help. Punch in the name of your favorite cocktail or grab a random one if you're
+                            feeling adventurous and we'll show you how to mix it up. You'll be sure to find a new
+                            favorite or two!</p>
+                        <p>Once you have a beverage in hand, you'll need some tunes to get the party going. You can
+                            search for a playlist by artist or genre. Either way, we'll give you a few options to choose
+                            from to kick start your House Party!</p>
+                    </div>
+                </div>
+            <!-- </div> -->
+
+            <!-- <div class="container"> -->
+                <div class="card" data-aos="fade-left">
+                    <img class="folioPics" src="assets/images/HPthumb.png" alt="House Party thumbnail">
+                    <div>
+                        <h3>House Party</h3>
+                        <p>If you're not sure what to mix up - drink or music-wise - for your next House Party, we're
+                            here to help. Punch in the name of your favorite cocktail or grab a random one if you're
+                            feeling adventurous and we'll show you how to mix it up. You'll be sure to find a new
+                            favorite or two!</p>
+                        <p>Once you have a beverage in hand, you'll need some tunes to get the party going. You can
+                            search for a playlist by artist or genre. Either way, we'll give you a few options to choose
+                            from to kick start your House Party!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
         </section>
         <section class="bottom-slide" id="sec-resume">
-            <h1>Resume</h1>
-            <h3>My professional experience</h3>
+                <span class="mySpacing"><h1>Resume</h1>
+            <h3>My professional experience</h3></span>
         </section>
         <section class="bottom-slide" id="sec-contact">
-            <h1>Contact</h1>
-            <h3>Get in touch!</h3>
+                <span class="mySpacing"> <h1>Contact</h1>
+            <h3>Get in touch!</h3></span>
         </section>
     </main>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-    <script  src="./assets/js/function.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="./assets/js/function.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+        offset:300,
+        duration: 750
+    });
+  </script>
 
 </body>
+
 </html>

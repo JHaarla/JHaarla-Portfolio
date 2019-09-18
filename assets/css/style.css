@@ -193,10 +193,10 @@ a {
     text-align: center;
 }
 
-.my-center {
+/* .my-center {
     /* text-align: center; */
-    margin: auto;
-}
+    /* margin: auto; */
+/* } */ 
    
   @media (min-width: 800px) {
     .nav-items h1,

@@ -6,13 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>&lt;haarla.dev&gt; Portfolio</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
         integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,900" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"
+        integrity="sha256-zmfNZmXoNWBMemUOo1XUGFfc0ihGGLYdgtJS3KCr/l0=" crossorigin="anonymous" />
 
 </head>
 
@@ -140,7 +142,7 @@
             <div class="container">
 
                 <div class="row">
-                    <form class="col s6">
+                    <form class="col m12 l6">
                         <div class="row">
                             <div class="input-field col s6">
                                 <i class="material-icons prefix">account_circle</i>
@@ -152,18 +154,6 @@
                                 <label for="last_name">Last Name</label>
                             </div>
                         </div>
-                        <!-- <div class="row">
-                        <div class="input-field col s12">
-                          <input disabled value="I am not editable" id="disabled" type="text" class="validate">
-                          <label for="disabled">Disabled</label>
-                        </div>
-                      </div> -->
-                        <!-- <div class="row">
-                        <div class="input-field col s12">
-                          <input id="password" type="password" class="validate">
-                          <label for="password">Password</label>
-                        </div>
-                      </div> -->
                         <div class="row">
                             <div class="input-field col s12">
                                 <i class="material-icons prefix">email</i>
@@ -171,16 +161,6 @@
                                 <label for="email">Email</label>
                             </div>
                         </div>
-                        <!-- <div class="row">
-                        <div class="col s12">
-                          This is an inline input field:
-                          <div class="input-field inline">
-                            <input id="email_inline" type="email" class="validate">
-                            <label for="email_inline">Email</label>
-                            <span class="helper-text" data-error="wrong" data-success="right">Helper text</span>
-                          </div>
-                        </div>
-                      </div> -->
                         <div class="row">
                             <div class="input-field col s12">
                                 <i class="material-icons prefix">mode_edit</i>
@@ -192,7 +172,36 @@
                             <i class="material-icons right">send</i>
                         </button>
                     </form>
+                    <div class="col m12 l6">
+
+                        <div class="my-contact">
+                            <a href="mailto:haarladev@gmail.com" target="_top">
+                                <i class="fas fa-envelope fa-3x"></i> <br>
+                                <p>haarla.dev@gmail.com</p>
+                            </a>
+                        </div>
+                        <div class="my-contact">
+                            <a target="_blank">
+                                <i class="fas fa-phone-alt fa-3x"></i><br>
+                                <p>704.840.5654</p>
+                            </a>
+                        </div> <br>
+                        <div class="my-contact">
+                            <a href="https://github.com/JHaarla" target="_blank">
+                                <i class="fab fa-github fa-3x"></i><br>
+                                <p>GitHub</p>
+                            </a>
+                        </div>
+                        <div class="my-contact">
+                            <a href="https://www.linkedin.com/in/jarkko-haarla-34906215/" target="_blank">
+                                <i class="fab fa-linkedin-in fa-3x"></i><br>
+                                <p>LinkedIn</p>
+                            </a>
+                        </div>
+
+                    </div>
                 </div>
+            </div>
             </div>
 
 
@@ -212,5 +221,30 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 
 </body>
+<footer class="page-footer">
+        <!-- <div class="container">
+          <div class="row">
+            <div class="col l6 s12">
+              <h5 class="white-text">Footer Content</h5>
+              <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+            </div>
+            <div class="col l4 offset-l2 s12">
+              <h5 class="white-text">Links</h5>
+              <ul>
+                <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+                <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+                <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+                <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+              </ul>
+            </div>
+          </div>
+        </div> -->
+        <div class="footer-copyright">
+          <div class="container">
+          © 2019 &lt;haarla.dev&gt;
+          <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+          </div>
+        </div>
+      </footer>
 
 </html>

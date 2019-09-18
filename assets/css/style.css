@@ -186,11 +186,15 @@ a {
     padding-top: 15px;
     padding-bottom: 10px;
     background-color: #ff5f14;
-    
+    margin-top: 2rem;
 }
 
 .footer-copyright {
     text-align: center;
+}
+
+.exp-bars {
+    margin-bottom: 1rem;
 }
 
 /* .my-center {

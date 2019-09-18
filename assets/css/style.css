@@ -53,7 +53,7 @@ body {
   .nav-items h3,
   .bottom-slide h3 {
     font-size: 1rem;
-    letter-spacing: 0.3rem;
+    letter-spacing: 0.2rem;
     opacity: 0.6;
   }
   .items-container {
@@ -103,7 +103,7 @@ body {
       max-width: 200px;
   }
 
-  .container {
+  .my-container {
       max-width: 800px;
       margin: auto;
       overflow: auto;
@@ -115,7 +115,7 @@ body {
       width: 100%
   }
 
-  .card {
+  .my-card {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
       grid-gap: 2rem;
@@ -123,11 +123,11 @@ body {
       margin-bottom: 2rem;
   }
 
-  .card > div {
+  .my-card > div {
       padding: 1rem;
   }
 
-  .card:nth-child(even) .folioPics {
+  .my-card:nth-child(even) .folioPics {
       order: 2;
   }
    
@@ -150,7 +150,7 @@ body {
       letter-spacing: 0ch;
     }
 
-    .card {
+    .my-card {
         display: block;
     }
   }

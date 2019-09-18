@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>&lt;haarla.dev&gt; Portfolio</title>
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
         integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
@@ -31,9 +32,11 @@
 
     <main class="content">
         <section class="bottom-slide" id="sec-profile">
-            <span class="mySpacing"><h1>About Me</h1>
-            <h3>About Jarkko Haarla (AKA &lt;haarla.dev&gt;)</h3></span>
-        
+            <span class="mySpacing">
+                <h1>About Me</h1>
+                <h3>About Jarkko Haarla (AKA &lt;haarla.dev&gt;)</h3>
+            </span>
+
 
             <div class="my-container">
                 <img class="profile-pic" src="assets/images/JHaarlanobg-circle.png"
@@ -50,18 +53,20 @@
             </div>
         </section>
 
-        
-            <section class="bottom-slide" id="sec-portfolio">
-                <span class="mySpacing"><h1>Portfolio</h1>
-                <h3>Here are some of my recent projects</h3></span>
-           
+
+        <section class="bottom-slide" id="sec-portfolio">
+            <span class="mySpacing">
+                <h1>Portfolio</h1>
+                <h3>Here are some of my recent projects</h3>
+            </span>
+
 
             <div class="my-container" id="sec-portfolio">
                 <div class="my-card">
                     <img class="folioPics" src="assets/images/HPthumb.png" alt="House Party thumbnail">
                     <div>
-                        <h2>House Party</h2>
-                        <p>If you're not sure what to mix up - drink or music-wise - for your next House Party, we're
+                        <h5>House Party</h5>
+                        <p>If you're not sure what to mix up drink or music-wise, we're
                             here to help. Punch in the name of your favorite cocktail or grab a random one if you're
                             feeling adventurous and we'll show you how to mix it up. You'll be sure to find a new
                             favorite or two!</p>
@@ -70,9 +75,9 @@
                             from to kick start your House Party!</p>
                     </div>
                 </div>
-            <!-- </div> -->
+                <!-- </div> -->
 
-            <!-- <div class="my-container"> -->
+                <!-- <div class="my-container"> -->
                 <div class="my-card" data-aos="fade-left">
                     <img class="folioPics" src="assets/images/GIFtastic.jpg" alt="GIFtastic thumbnail">
                     <div>
@@ -82,9 +87,9 @@
                             Fun project that lead to a fun page to play with. Check it out!</p>
                     </div>
                 </div>
-            <!-- </div> -->
+                <!-- </div> -->
 
-            <!-- <div class="my-container"> -->
+                <!-- <div class="my-container"> -->
                 <div class="my-card" data-aos="fade-right">
                     <img class="folioPics" src="assets/images/HPthumb.png" alt="House Party thumbnail">
                     <div>
@@ -98,9 +103,9 @@
                             from to kick start your House Party!</p>
                     </div>
                 </div>
-            <!-- </div> -->
+                <!-- </div> -->
 
-            <!-- <div class="my-container"> -->
+                <!-- <div class="my-container"> -->
                 <div class="my-card" data-aos="fade-left">
                     <img class="folioPics" src="assets/images/HPthumb.png" alt="House Party thumbnail">
                     <div>
@@ -120,12 +125,77 @@
 
         </section>
         <section class="bottom-slide" id="sec-resume">
-                <span class="mySpacing"><h1>Resume</h1>
-            <h3>My professional experience</h3></span>
+            <span class="mySpacing">
+                <h1>Resume</h1>
+                <h3>My professional experience</h3>
+            </span>
         </section>
         <section class="bottom-slide" id="sec-contact">
-                <span class="mySpacing"> <h1>Contact</h1>
-            <h3>Get in touch!</h3></span>
+            <span class="mySpacing">
+                <h1>Contact</h1>
+                <h3>Get in touch!</h3>
+            </span>
+
+
+            <div class="container">
+
+                <div class="row">
+                    <form class="col s6">
+                        <div class="row">
+                            <div class="input-field col s6">
+                                <i class="material-icons prefix">account_circle</i>
+                                <input id="first_name" type="text" class="validate">
+                                <label for="first_name">First Name</label>
+                            </div>
+                            <div class="input-field col s6">
+                                <input id="last_name" type="text" class="validate">
+                                <label for="last_name">Last Name</label>
+                            </div>
+                        </div>
+                        <!-- <div class="row">
+                        <div class="input-field col s12">
+                          <input disabled value="I am not editable" id="disabled" type="text" class="validate">
+                          <label for="disabled">Disabled</label>
+                        </div>
+                      </div> -->
+                        <!-- <div class="row">
+                        <div class="input-field col s12">
+                          <input id="password" type="password" class="validate">
+                          <label for="password">Password</label>
+                        </div>
+                      </div> -->
+                        <div class="row">
+                            <div class="input-field col s12">
+                                <i class="material-icons prefix">email</i>
+                                <input id="email" type="email" class="validate">
+                                <label for="email">Email</label>
+                            </div>
+                        </div>
+                        <!-- <div class="row">
+                        <div class="col s12">
+                          This is an inline input field:
+                          <div class="input-field inline">
+                            <input id="email_inline" type="email" class="validate">
+                            <label for="email_inline">Email</label>
+                            <span class="helper-text" data-error="wrong" data-success="right">Helper text</span>
+                          </div>
+                        </div>
+                      </div> -->
+                        <div class="row">
+                            <div class="input-field col s12">
+                                <i class="material-icons prefix">mode_edit</i>
+                                <textarea id="textarea1" class="materialize-textarea"></textarea>
+                                <label for="textarea1">Your message here</label>
+                            </div>
+                        </div>
+                        <button class="btn waves-effect waves-light" type="button" name="action">Submit
+                            <i class="material-icons right">send</i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+
+
         </section>
     </main>
 
@@ -133,12 +203,13 @@
         integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <script src="./assets/js/function.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-  <script>
-    AOS.init({
-        offset:250,
-        duration: 750
-    });
-  </script>
+    <script>
+        AOS.init({
+            offset: 250,
+            duration: 750
+        });
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 
 </body>
 

@@ -188,6 +188,15 @@ a {
     background-color: #ff5f14;
     
 }
+
+.footer-copyright {
+    text-align: center;
+}
+
+.my-center {
+    /* text-align: center; */
+    margin: auto;
+}
    
   @media (min-width: 800px) {
     .nav-items h1,
@@ -211,4 +220,14 @@ a {
     .my-card {
         display: block;
     }
+    .my-contact {
+        width: 175px;
+        display: inline-block;
+        margin-top: 4rem;
+        /* margin-left: 1rem;
+        margin-right: 1rem; */
+        text-align: center;
+    
+    }
+    
   }

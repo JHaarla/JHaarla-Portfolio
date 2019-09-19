@@ -202,6 +202,12 @@ a {
     /* margin: auto; */
 /* } */ 
    
+#skinnier {
+    max-width: 70%;
+    text-align: center;
+    display: inline-block;
+}
+
   @media (min-width: 800px) {
     .nav-items h1,
     .bottom-slide h1 {

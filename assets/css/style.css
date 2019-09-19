@@ -3,9 +3,11 @@ body {
     background: #eee;
     font-size: 16px;
   }
+  
   a {
     text-decoration: none;
   }
+
   .nav-items,
   .bottom-slide {
     display: flex;
@@ -18,6 +20,7 @@ body {
     text-align: center;
     padding: 0 2rem;
   }
+
   #myheight {
     display: flex;
     flex-direction: column;
@@ -29,6 +32,7 @@ body {
     text-align: center;
     padding: 0 2rem;
   }
+
   .mySpacing {
     display: flex;
     flex-direction: column;
@@ -39,8 +43,8 @@ body {
     background: #eee;
     text-align: center;
     padding: 0 2rem;
-
   }
+
   .nav-items h1,
   .bottom-slide h1 {
     font-size: 2rem;
@@ -49,15 +53,18 @@ body {
     letter-spacing: .5rem;
     color: #ff5f14;
   }
+
   .nav-items span {
       color: #000;
   }
+
   .nav-items h3,
   .bottom-slide h3 {
     font-size: 1rem;
     letter-spacing: 0.2rem;
     opacity: 0.6;
   }
+
   .items-container {
     display: flex;
     flex-direction: row;
@@ -69,10 +76,12 @@ body {
     background: #fff;
     z-index: 10;
   }
+
   .items-container--top {
     position: fixed;
     top: 0;
   }
+
   .navs {
     display: flex;
     justify-content: center;
@@ -88,6 +97,7 @@ body {
     background: rgb(255,95,20, 0.8);
     transition: all 0.5s ease;
   }
+
   .bottom-slider {
     position: absolute;
     bottom: 0;
@@ -180,7 +190,6 @@ a {
     /* margin-left: 1rem;
     margin-right: 1rem; */
     text-align: center;
-
 }
 
 .page-footer {
@@ -198,23 +207,22 @@ a {
     margin-bottom: 1rem;
 }
 
-/* .my-center {
-    /* text-align: center; */
-    /* margin: auto; */
-/* } */ 
-
 .sub-title {
     font-weight: bold;
     color: #858585;
     text-transform: uppercase;
     letter-spacing: .25rem;
-
 }
    
 #skinnier {
-    max-width: 70%;
+    max-width: 100%;
     text-align: center;
     display: inline-block;
+    line-height: 2.5rem;
+}
+
+.custom-height {
+    line-height: 2.5rem;
 }
 
   @media (min-width: 800px) {
@@ -243,10 +251,7 @@ a {
         width: 175px;
         display: inline-block;
         margin-top: 4rem;
-        /* margin-left: 1rem;
-        margin-right: 1rem; */
         text-align: center;
-    
     }
     
   }

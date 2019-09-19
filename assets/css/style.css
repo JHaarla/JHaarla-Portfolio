@@ -1,6 +1,7 @@
 body {
     font-family: 'Lato', "Century Gothic", sans-serif;
     background: #eee;
+    font-size: 16px;
   }
   a {
     text-decoration: none;
@@ -201,6 +202,14 @@ a {
     /* text-align: center; */
     /* margin: auto; */
 /* } */ 
+
+.sub-title {
+    font-weight: bold;
+    color: #858585;
+    text-transform: uppercase;
+    letter-spacing: .25rem;
+
+}
    
 #skinnier {
     max-width: 70%;
